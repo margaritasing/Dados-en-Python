@@ -12,13 +12,14 @@ while otra=="S" or otra=="s":
    print("El jugador",j2,"ha sacado : ", jugadordos)
 
    if jugadoruno==jugadordos:
-    print ("Estan empatados")
-
+        print ("Estan empatados")
+        break
+ 
    elif jugadoruno>jugadordos:
-    print ("El jugador",j1,"ha ganado")
+         print ("El jugador",j1,"ha ganado")
 
    else:
-     print ("El jugador",j2,"ha ganado")
+          print ("El jugador",j2,"ha ganado")
      
    otra= input("¿Quieres jugar otra vez?")
 
